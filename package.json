@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "start": "nodemon src/index.js",
+    "start": "node src/index.js",
     "test": "jest .",
     "integration-test": "jest integration",
     "lint": "lint ."
@@ -22,5 +22,8 @@
     "jest": "^24.8.0",
     "lint": "^0.7.0",
     "nodemon": "^1.19.1"
+  },
+  "engines": {
+    "node": "10.x"
   }
 }
